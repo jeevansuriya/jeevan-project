@@ -1,0 +1,156 @@
+body{
+    border-radius: 15px;
+    margin: 2px;
+    background-color: rgb(9, 11, 26);
+    filter: hsl(277, 62%, 58%);
+}
+.box{
+    margin-top: 90px;
+    height: 330px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
+    position: relative;
+    width: 500px;
+    background-color:  hsl(244, 38%, 16%);
+    color: white;
+}
+.imgbox{
+    mix-blend-mode:soft-light;
+    margin-top: 90px;
+    position: absolute;
+    left: 622px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+}
+.innerbox{
+     border-radius: 60px;
+     display: flex;
+     align-items: center;
+     margin: 0px 0px 0px 120px;
+}
+img{
+    display: flex;
+}
+span{
+    color: rgb(196, 10, 155);
+}
+h2{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+p{
+    margin-right: 70px;
+    margin-left: 60px;
+    color: hsla(0, 0%, 100%, 0.651);
+    font-size: 17px;
+}
+.a1,.a2,.a3{
+    font-weight: bolder;
+    margin-left: 60px;
+    display: inline-flexbox;
+    color:white;
+}
+.a4,.a5,.a6{
+    font-size:1px; 
+    color:hsla(0, 0%, 100%, 0.6) ;
+}
+.a4{
+    margin-left: 60px;
+}.a5,.a6{
+     margin-left: 30px;
+}
+sub{
+    -webkit-text-size-adjust: none;
+    font-weight:1;
+    margin-left: 0px;
+}
+
+
+@media screen and (min-width : 100px) and (max-width : 1000px) {  
+   body{
+       object-fit: cover ;
+       margin-bottom: 70px;
+       min-height: 1000px;
+   }
+    .box{
+        margin-top: 3px;
+        margin-right: 50px;
+        height: 550px;
+        min-width: 430px;
+        max-width: 430px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius:8px ;
+        border-top-left-radius: 0px;
+        position: relative;
+        top: 420px;
+        text-align: center;
+        background-color:  hsl(244, 38%, 16%);
+        color: white;
+    }    
+    .imgbox{
+        margin: 0px;
+        mix-blend-mode:soft-light;
+        position: absolute;
+        left: 122px;
+    }
+    img{
+       width: 430px;
+        margin-bottom: 37px;
+        border-top-right-radius: 8px;
+        border-top-left-radius:8px ;
+        margin-right: 50px;
+    }
+    span{
+        color: rgb(196, 10, 155);
+    }
+    h2{
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 70px;
+    }
+    p{
+        margin-right: 70px;
+        margin-left: 60px;
+        color: hsla(0, 0%, 100%, 0.651);
+        font-size: 17px;
+    }
+    .a1,.a2,.a3{
+        text-align: center;
+        align-content: flex;
+    }
+    .a1{
+        position: absolute;
+        left: 130px;
+    }
+    .a2{
+        position: absolute;
+        top: 370px;
+        left: 134px;
+    }
+    .a3{
+        position: absolute;
+        top: 440px;
+        left: 127px;
+    }
+    .a4,.a5,.a6{
+        text-align: center;
+        color:hsla(0, 0%, 100%, 0.6) ;
+        font-size:1px; 
+    }
+    .a4{
+        position: absolute;
+        left: 115px;
+    }
+    .a5{
+        position: absolute;
+        top: 394px;
+        left: 147px;
+    }
+    .a6{
+        position: absolute;
+        top: 468px;
+        left: 157px;
+    }
+    
+}
